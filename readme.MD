@@ -17,10 +17,15 @@ A partir da pasta raiz, cada pasta deve representar uma segregação dos cógido
 │   └── api-auth
 ├── web
 │   └── app
-├── mobile 
+├── frontend 
 │   └── app
 
 ```
+
+## Run
+
+### Frontend:
+- comando: `cd frontend && npm i && npm start`
 
 
 ## Projetos ativos ou em implementação

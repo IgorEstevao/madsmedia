@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import VideoJS from './components/videojs/videojs';
 import { VideoJSOptionsType } from './components/videojs/videojs-types';
+import { BaseButton } from './style/BaseButton/base-button';
+import { BaseCardVideo } from './style/BaseCardVideo/base-card-video';
 
 function App() {
   const playerRef = React.useRef(null);
@@ -29,6 +31,8 @@ function App() {
 
   return (
     <div>
+      <BaseButton text='aaaa' />
+      <BaseCardVideo title='Abandon: 100 Nuki Shinai to Derarenai Fushigi na Kyoushitsu 2' />
       <VideoJS options={videoJsOptions} onReady={handlePlayerReady} />
     </div>
   );

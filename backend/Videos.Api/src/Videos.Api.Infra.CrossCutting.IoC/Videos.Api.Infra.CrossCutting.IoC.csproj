@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="6.0.5" />
+        <PackageReference Include="AutoMapper" Version="12.0.1" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+        <PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
+        <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+        <PackageReference Include="Serilog.Expressions" Version="3.4.1" />
+        <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Videos.Api.Application\Videos.Api.Application.csproj" />
+        <ProjectReference Include="..\Videos.Api.Infra.CrossCutting.Environments\Videos.Api.Infra.CrossCutting.Environments.csproj" />
+        <ProjectReference Include="..\videos.api.infra.Data\videos.api.infra.Data.csproj" />
+    </ItemGroup>
+
+</Project>

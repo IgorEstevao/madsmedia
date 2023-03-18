@@ -13,7 +13,7 @@ A partir da pasta raiz, cada pasta deve representar uma segregação dos cógido
 ```
 ├── backend
 │   ├── web-server
-│   ├── api-video
+│   ├── Videos.Api
 │   └── api-auth
 ├── web
 │   └── app
@@ -27,14 +27,12 @@ A partir da pasta raiz, cada pasta deve representar uma segregação dos cógido
 ### Frontend:
 - comando: `cd frontend && npm i && npm start`
 
-
 ## Projetos ativos ou em implementação
 | Projeto | README |
 | ------ | ------ |
 | web-server | [plugins/dropbox/README.md][PlDb] |
-| api-vide | [plugins/github/README.md][PlGh] |
+| Videos.Api | [README.MD](./backend/Videos.Api/readme.md) |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
-
 
 ## License
 

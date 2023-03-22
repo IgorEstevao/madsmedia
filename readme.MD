@@ -1,4 +1,4 @@
-# MadsMedia
+# MadsMedia (Descontinued)
 ## _MadsMedia mono repo_
 Todas as API's, serviços, sites ou App's do MadsMedia se encontram nesse mono repo.
 Cada uma das subpastas esta reprensentando uma segregação.
